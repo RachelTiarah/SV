@@ -1,0 +1,9 @@
+- Login to vsphere in browser.
+- Navigate to virtual switches.
+- Select Virtual Machine Port Group for a Standard Switch.
+- Select New standard switch and set bytes 1500 and click on next until Finish
+- Switch will be created but first go to vmware workstation and add network 
+adapter 
+- Navigate to physical.
+- Set cpu, memory and click on ok 
+-  The VM Network is ready
