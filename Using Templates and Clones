@@ -1,0 +1,30 @@
+-Go to vcenter
+-Create a new virtual machine on your host. 
+-creation type -> create a new VM -> Click on next.
+-Select a name and folder and Click on next
+- Select a compute resource and Click on next
+-Select datastore and Click on next.
+-Select esxi 7 and Click on next.
+-Guest OS Select os because it is open source.
+-Upload iso file of OS.
+-Select data store.
+-Connect at power on . and click on next. click on finish
+- Right Click on The Virtual Machine that is Just Created.
+-Give name it a name and select host and then Click next.
+-Select VMFS.
+-Select customize the os and power on the virtual machine and Click on next. Click on Finish
+-Here we created clone of our virtual machine.
+-In policies and profiles ->VM Customization Specfications.
+-Name it and Select Linux and Click on next.
+-Fill the Required credentials.
+-Select use the virtual machine 
+-Give it a password
+-Select Mumbai time zone.
+-In network select use Standard network Settings and click on Finish
+-VM customization and specification Done.
+-Right Click on Virtual Machine and Click on Deploy from template and name it and Click on next. 
+-Select Your Host.
+-Select Your Storage and Click on Next.
+-Select Customize the os and Select Power on the virtual machine after creation. 
+-Click On Next and click finish
+-we created rom template.
