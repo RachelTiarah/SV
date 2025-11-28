@@ -1,0 +1,11 @@
+- Navigate to Vsphere home page. 
+- Click on VM & Template. 
+- Select a VM and Right Click Go to Rename.
+- Rename your VM and Click on Ok
+- As you can see Virtual Machine is Successfully Renamed.
+- Now go back to home page of Vsphere. 
+- Go to VM & Template and Select and Scroll down and Click on Edit Settings.
+- Modify Your Hard Disk According to requirement and Click on Ok.
+- As you can see here we Successfully Increased Storage Space. 
+- Again Click on Edit Settings to Edit Memory. 
+- Now Modify Your Memory According to Requirement.
