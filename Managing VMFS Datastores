@@ -1,0 +1,19 @@
+- Login to your esxi host web panel navigate to storage and click on new datastore
+- Select Create new VMFS datastore.
+- Give a Name to datastore and Click on next.
+- Select use full disk and Click on next.
+- We get an error then click on yes.
+- Expand The Storage of esxi to 800 GB.
+- Select the olive green division at left to set the storage for VMFS by moving the above bar.  
+- Click on Finish
+- Too expand the storage select expand and click on next.
+- Select the newly created datastore.
+- Set the storage by scrolling bar allocate both the vmfs and free space  a similar storage. 
+- Our VMFS expanded Click on Finish.
+- Login vcenter and go to storage and new data store.
+- Select VMFS and Click on next.
+- Our datastore is created 
+
+- Navigate to vcenter ->storage.
+- Go to Delete datastore and click yes
+
