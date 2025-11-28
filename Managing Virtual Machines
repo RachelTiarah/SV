@@ -1,0 +1,19 @@
+- Navigate to vcenter.
+- Select VM and Template.
+- Select VM 
+- Right Click on VM and then Select Remove Inventory. 
+- Click on Yes.
+- Select Storage.
+- Right Click on Sufficient Datastore and Click on Register VM.
+- Select os File and name it
+- Select your host and Click on next and then Finished
+- Successfully registered a VM.
+- Right Click on VM and Select Delete from disk.
+- Click on yes.
+- Navigate to home page and Select VM and Template.
+- Select a VM and Right Click And Click on Snapshots.
+- Click on  Create.
+- Now go to VM again and Snapshots->Manage Snapshots. 
+- Click on Revert.
+- Click on Delete
+-  Successfully Deleted Snapshots. 
