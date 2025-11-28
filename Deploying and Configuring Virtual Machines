@@ -1,0 +1,47 @@
+ Step 1 - Create new virtual machine in VMware Workstation 
+- Click on Create new virtual machine, Select Typical and Click Next
+- Select Installer Disc Image file and Click on Browse (Find the VMvisor iso file and select it) then Click Next 
+- Give the virtual machine a name and Click Next
+- Select Number of Processors and set ram as 16gb
+- Select Network Address Translation and select Scsi then click next
+- Select Split virtual disk into multiple files and Click Next 
+- click finish and the VM is created
+- Click on Power ON this virtual machine
+- After powering on ESXi will start installing
+- Press Enter and Press F11  to Accept and Continue 
+- Press Enter until root password. after setting root password press Enter
+- Press F11 to Install ESXi then Press Enter to Reboot
+- In VMware Workstation Click on Power on this Virtual Machine 
+- To configure SSH press F2 and enter your password then Press Enter
+- In  System Customization Select Troubleshooting Options and Press Enter 
+- Within Troubleshooting Options Select Enable SSH and Press Enter 
+-  Press Esc twice to save and exit from settings 
+
+Step 2 - Configuring ESXi Host Client 
+- Power On the virtual machine and Copy the IP Address of the server and Paste it into your Web Browser 
+- ESXi Host Client Click -> Storage -> Datastore Browser  -> Create Directory -> Enter Name 
+- After the new directory is created Click on Windows 7 and Select the Upload option 
+- in Host Directory find the iso file and Open. after it opens and loads click Close
+- Host Client Dashboard -> Virtual Machines ->Create / Register a new VM 
+- Enter a Name for the virtual machine and edit the following 
+Compatibility = default value 
+Select Guest OS Family = Windows 
+Select Guest OS Version = Microsoft Windows 7 (64-bit) and Click Next
+Select the Standard datastore and Click Next
+Keep CPU at 1 core 
+Memory at 2048 MB 
+Hard Disk at 8 GB 
+Disk Provisioning as Thin provisioned 
+CD/DVD Drive 1
+The remaining can have their default value
+- Select Power on and Click Next then Finish
+- Click on the virtual machine -> Edit -> CD/DVD Drive 1 -> Connect -> Save -> Power on
+
+Step 3 - Install VMware Tools -
+- Select Actions -> Guest OS -> Install VMware Tools
+	
+Step 4 - Copy Files to Desktop
+- Drag drop a desired file to the VM's Desktop after installing VMWare Too 
+
+
+
