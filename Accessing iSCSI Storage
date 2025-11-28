@@ -1,0 +1,12 @@
+-Validating an existing esxi host icsi configuration. 
+-Navigate to Storage Adapters and click okay
+-Storage Adapters is created.
+-Select iscsi and click ok
+-Name icsi and Click on OK
+-On network port binding and click on add then click ok
+-Write ip address of host.
+-Go to Dynamic Discovery. and click ok
+-Select VMkernel Network Adapter and click next
+-Configuring port properties for VM kernel and click next 
+-click on Finish
+-now virtual network is added. 
