@@ -1,0 +1,35 @@
+- Install vcenter and click on run
+- Click on vcsa installer and click on install.
+- Select Deploy vCenter -> Next -> I accept -> Next
+- Type your esxi’s ip address and username as root and password then click Yes
+- Give a name and password
+- Select Tiny - 14gb ram
+-  Enable thin disk -> Next
+- Select DHCP -> Next -> Finish
+- When Installation is at 80% go to Browser and login to vmware esxi access page. 
+- Type the user name and password.
+- In vm  Run the Vcenter’s VM. 
+- Once the Stage 1 Installation completed click on Continue.
+- Give your domain name and credentials and click Next and Ok
+- installation will take 10 mintues, then click close
+- Open a new tab in browser and type the ip which occurred on completion wizard.
+- Navigate to vcenter appliance via ip in browser
+- Right click on ip address->New Datacenter
+- Give region name as BOMBAY_REGION 
+-  Right click on BOMBAY_REGION and select cluster 
+- Put ip address of your esxi server 
+- Type root a username and give a password and click Next
+- Select Evaluation License -> Next -> Disabled -> Next
+- In VM location select BOMBAY_REGION and Next
+- Click on vSphere Client and Select Licensing. 
+- type the license key and select Next and Finish
+- Navigate to host configure->Time Configuration Click on ADD SERVICE
+- Type esxi ip address. 
+- In Vcenter management -> time servers -> enter ip address and select time zone
+
+
+
+
+
+
+
