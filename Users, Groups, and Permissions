@@ -1,0 +1,26 @@
+- Create new virtual machine for Domain Controller (Windows server 2016) and click next
+- Browse to the iso image of windows server 2016
+- Name the Virtual Machine.
+- Select BIOS, number of Processors , allocate 4gb RAM
+- Use Network adapter Translation.
+- Select LSI logic.
+- Select NVme for disk type.
+- Select create a new virtual disk. 
+- Set Disk space of 60 GB and click Next and Finish
+- Windows server 2016 -> Under hardware -> floppy -> uncheck connect at power on and use floppy image file. 
+- In processors -> check virtualize intel and virtualize IOMU
+- power on virtual machine of Windows server 2016 
+- Select English US -> Next -> Install
+- Select Windows server 2016 Datacenter Evaluation -> Next 
+- Type username and password and Finish
+- Once windows starts type the password
+- Open server manager Click on add roles and feature and click Next
+- Select role based or feature based installation.
+- Select server from server pool. 
+- Select active directory domain service and click Next then Install
+- Click on the yellow flag in server manager and promote to domain controller 
+- Select add a new forest and give your domain name
+- Give a password for for your domain controller click next and install
+- In vmware workstation go to esxi and set static ip addreses to connect the domain (Windows server 2016) 
+- Go to dns configuration and write the domain
+-  the active directory is activated. with domain name
